@@ -1,0 +1,1437 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*Index*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 3.5em;
+  
+}
+h2 {
+  font-size: 2.7em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1em;
+}
+p {
+  font-size: 1em;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 1.25em;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgb(0, 0, 0);
+  margin-left: 0px;
+  transition: all 350ms;
+}
+button:hover {
+  background-color: rgb(39, 37, 41);
+  cursor: pointer;
+  transition: all 350ms;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/*------------------------------------------------------------Button SWP-----------------------------------*/
+#WP button {
+  font-size: 1.2em;
+  background: rgba(0, 0, 0);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+#WP button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+#WP button i {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+#WP button:hover .wrapper {
+  animation: fly 0.6s ease-in-out infinite alternate;
+}
+#WP button:hover i {
+  transform: translateX(70px) rotate(45deg) scale(1.1);
+}
+#WP button:hover span {
+  transform: translateX(9em);
+}
+#WP button:active {
+  transform: scale(0.95);
+}
+@keyframes fly {
+  from {
+    transform: translateY(0.1em);
+  }
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+#WP button:hover {
+  background-color: rgb(39, 37, 41);
+  cursor: pointer;
+  transition: all 350ms;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------Button Ver WP----------------------------------------------*/
+#Tool button {
+  font-size: 1.2em;
+  background: rgba(0, 0, 0);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+#Tool button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+#Tool button i {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+#Tool button:hover .wrapper {
+  animation: fly 0.6s ease-in-out infinite alternate;
+}
+
+#Tool button:hover i {
+  transform: translateX(105px) rotate(180deg) scale(1.1);
+}
+#Tool button:hover span {
+  transform: translateX(19em);
+}
+#Tool button:active {
+  transform: scale(0.95);
+}
+@keyframes fly {
+  from {
+    transform: translateY(0.1em);
+  }
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+#Tool button:hover {
+  background-color: rgb(39, 37, 41);
+  cursor: pointer;
+  transition: all 350ms;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 70px;
+  margin-left: -20px;
+}
+
+.container {
+  max-width: min(1400px, 90%);
+  margin: 0% auto;
+  
+}
+.color-acento {
+  color: rgb(255, 110, 110);
+}
+.color-acentos {
+  color: rgb(255, 110, 110);
+  font-weight: 600;
+  
+}
+
+.color-acento2 {
+  color: rgb(255, 110, 110);
+}
+header {
+  background-color: rgb(14, 13, 13);
+}
+
+header .logo {
+  margin: 0;
+  padding: 10px 10px;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+  margin-right: -50px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  color: white;
+  transition: all 350ms;
+}
+
+header a:hover {
+  color: gray;
+  transition: all 350ms;
+}
+
+#Wed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: whitesmoke;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('media/Wall.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#Wed b1 {
+  color: white;
+}
+
+#Somos-MM .container {
+  text-align: center;
+  padding: 20px 12px;
+}
+#Somos-MM2 .container {
+  text-align: left;
+  padding: 100px 12px;
+}
+
+#Tool {
+  background-color: whitesmoke;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('media/we.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+
+#Tool .container {
+  padding: 30px 0px;
+}
+
+#Tool p {
+  display: none;
+}
+
+#Tool h2 {
+  margin-top: 0px;
+  font-size: 3.2em;
+}
+
+#cTools .carta2 {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+}
+
+#Galeria {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#Galeria .containerr {
+  padding: 0px 0px;
+}
+
+#Galeria h2 {
+  margin-top: 0;
+  padding: 50px 0px 0px 0px; 
+  font-size: 3.2em;
+  
+}
+
+
+#Galeria .cartaa {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+}
+#Galeria h5{
+  font-weight: lighter;
+
+}
+#Galeria h3{
+  color: white;
+
+}
+
+
+.cartaa:first-child {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url('media/ring.jpg');
+}
+
+#Galeria .cartaa:nth-of-type(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url('media/ring.jpg');
+}
+
+#Galeria .cartaa:nth-child(3) {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url('media/ring.jpg');
+}
+
+.background-ring {
+  background-image: url('media/ring.jpg');
+}
+
+/* .background-algo {
+  background-image: url('media/ring.jpg');
+} */
+
+#WP {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+footer {
+  background-color: rgb(37, 37, 37);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  padding-top: 1.5em;
+  padding-bottom: 0.25em;
+  
+}
+
+footer p {
+  margin: 20;
+  padding: 12px;
+  color: rgb(163, 163, 163);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer .container {
+  
+  height: 100px;
+  display: flex;
+  gap: 6em;
+}
+footer .container a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: gray;
+}
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+
+  #Wed h1 {
+    font-size: 5em;
+  }
+
+  #Somos-MM .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #Somos-MM .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+ 
+
+  #Somos-MM h2 {
+    margin-top: 4px;
+  }
+
+
+  #Somos-MM .img-container {
+    background-image: url('media/img/PiaPiaLogo.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px;
+  }
+
+  #Galeria .containerr {
+    display: flex;
+    justify-content: center;
+  }
+  #Galeria p {
+    display: block;
+    margin-bottom: 30px;
+  }
+  #Galeria h3 {
+    margin-top: 0;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    
+  }
+  
+ 
+  #formulario, #formulariop  {
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+    border-radius: 2%;
+  }
+
+ 
+
+  #footer .container{
+  flex-direction: column;
+  }
+}
+
+.container:hover .links {
+  right: -50px;
+  border-radius: 0 10px 10px 0;
+}
+
+.container .links{
+  margin-top: -20px;
+}
+.container .links a {
+  font-size: 30px;
+  padding: 0 5px;
+  color: #646069;
+  
+}
+
+.container .links a:nth-child(1):hover {
+  color: rgb(105, 94, 199);
+}
+
+.container .links a:nth-child(2):hover {
+  color: rgb(255, 95, 122);
+}
+.container .links a:nth-child(3):hover {
+  color: rgb(129, 101, 255);
+}
+.container .links a:nth-child(4):hover {
+  color: rgb(255, 175, 25);
+}
+/*---------------------------------------------------------------------------------------------------------------- */
+/* Media para SWP img1 e im2 */
+/*---------------------------------------------------------------------------------------------------------------- */
+.img1{
+  display: none;
+}
+@media only screen and (min-width: 720px){
+  .img2{
+    display: none;
+    
+  }
+
+  .img1{
+    display: block;    
+    pointer-events: none;
+
+}
+}
+
+/*---------------------------------------------------------------------------------------------------------------- */
+/* Media para CBoda img1 e im2 */
+/*---------------------------------------------------------------------------------------------------------------- */
+
+/*---------------------------------------------------------------------------------------------------------------- */
+/* Inicia nuevo codigo css para la pagina CBoda */
+/*---------------------------------------------------------------------------------------------------------------- */
+#Fase {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 20% 500px;
+  padding: 50px;
+}
+
+#Fase .container {
+  padding: 100px 0px;
+}
+
+/*#Fase p {
+  display: none;
+}*/
+
+#Fase h2 {
+  margin-top: 0px;
+  font-size: 3.2em;
+}
+#Fase h4 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.linea {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.linea img {
+  margin-top: -30px;
+  width: 90%;
+  pointer-events: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------- */
+/* Inicia codigo para la solicitud de WP*/
+/*---------------------------------------------------------------------------------------------------------------- */
+
+#Wplanersop {
+  margin-top: -150px;
+  display: flex;
+  
+}
+
+#WPP {
+  margin-top: -150px;
+  display: flex;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------- */
+/* Privacidad de datos*/
+/*---------------------------------------------------------------------------------------------------------------- */
+#Priva a {
+  color: rgb(95, 140, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#Priva a:hover {
+  color: rgb(15, 31, 71);
+  
+  
+}
+#Priva {
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  background-size: 100% 500px;
+}
+
+#Priva .containerpriv {
+  padding: 100px 0px;
+  width: min(100% - 4rem, 70rem);
+  margin-inline: auto;
+}
+
+#Priva p {
+  display: none;
+}
+
+#Priva h2 {
+  margin-top: 0px;
+  font-size: 2em;
+}
+#Priva h4 {
+  color: rgba(0, 0, 0, 0.5);
+}
+#Priva h5 {
+  color: black;
+  font-weight: lighter;
+}
+#Priva h3 {
+  color: black;
+  text-align: center;
+}
+#Priva {
+  align-items: left;
+  justify-content: left;
+  background-position: left left;
+  background-size: cover;
+  padding: 50px;
+}
+#Priva h7{
+  color: rgb(73, 73, 73);
+  font-weight: bold;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+/*Login y registro*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+.contenedor {
+  width: 100%;
+  padding: 15px;
+}
+#formulario {
+  background: #fff;
+  margin-top: 30px;
+  padding: 3px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#Fase h1 {
+  text-align: center;
+  color: #1a2537;
+  font-size: 40px;
+}
+
+input[type='text'],
+input[type='password'] {
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+  border: none;
+}
+.input-contenedor {
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+}
+.icon {
+  min-width: 50px;
+  text-align: center;
+  color: #999;
+}
+.button {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background: rgb(255, 56, 56);
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 350ms;
+}
+.button:hover {
+  background: rgb(255, 110, 110);
+  transition: all 350ms;
+}
+.button:active {
+  transform: scale(0.95);
+}
+
+p {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: rgb(26, 115, 233);
+  font-weight: 600;
+}
+.link:hover {
+  color: rgb(13, 56, 112);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*Sepa pero aqui va algo chido*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.buttonc {
+  margin-top: 20px;
+  border: none;
+  width: 40%;
+  color: white;
+  font-size: 20px;
+  background: rgb(0, 0, 0);
+  padding: 15px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 350ms;
+}
+.buttonc:hover {
+  background: rgb(39, 39, 39);
+  transition: all 350ms;
+}
+
+.buttonc:active {
+  transform: scale(0.95);
+}
+
+.mangos {
+  color: white;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------Presentacion WPlanners---------------------------------------------------*/
+#Somos-MM2 .container {
+  display: flex;
+  justify-content: left;
+}
+
+#Somos-MM2 .texto2 {
+  width: 50%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+#Somos-MM2 .img-container2 {
+    margin-top: 150px;
+    margin-right: 60px;
+    background-image: url('media/mangoss.png');
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(70, 70, 70, 0.2);
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    width: 300px;
+  }
+
+  #Somos-MM2 .img-container3 {
+    margin-top: 150px;
+    margin-right: 60px;
+    background-image: url('media/mangos2.png');
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(70, 70, 70, 0.2);
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    width: 300px;
+  }
+  #Somos-MM2 .img-container4 {
+    margin-top: 150px;
+    margin-right: 60px;
+    background-image: url('media/mangos3.png');
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(70, 70, 70, 0.2);
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    width: 300px;
+  }
+  
+  #Somos-MM2 .img-container5 {
+    margin-top: 150px;
+    margin-right: 60px;
+    background-image: url('media/mangos4.png');
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(70, 70, 70, 0.2);
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    width: 300px;
+  }
+  
+  
+.meme button {
+  font-size: 1.1em;
+  background: rgba(0, 0, 0);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+.meme button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+.meme button i {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+.meme button:hover .wrapper {
+  animation: fly 0.6s ease-in-out infinite alternate;
+}
+.meme button:hover i {
+  transform: translateX(100px) rotate(0deg) scale(1.1);
+}
+.meme button:hover span {
+  transform: translateX(20em);
+}
+.meme button:active {
+  transform: scale(0.95);
+}
+@keyframes fly {
+  from {
+    transform: translateY(0.1em);
+  }
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+.meme button:hover {
+  background-color: rgb(39, 37, 41);
+  cursor: pointer;
+  transition: all 350ms;
+}
+/*-----------------------------------------Galeria----------------------------------------------------------*/
+#FaseGal input{
+  display: none;
+}
+
+.top-content{
+  width: 70%;
+  margin: 0 auto 20px auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 4px 4px 6px rgba(70, 70, 70, 0.4);
+}
+.top-content h3{
+  font-size: 20px;
+  background-color: rgb(172, 172, 172);
+  line-height: 60px;
+  padding: 0 50px;
+  color: white;
+}
+
+label{
+  display: inline-block;
+  height: 100%;
+  margin: 0 20px;
+  line-height: 60px;
+  font-size: 18px;
+  color: rgb(151, 151, 151);
+  cursor: pointer;
+  transition: all 350ms;
+}
+label:hover{
+  color: black;
+
+}
+
+.photo-gallery{
+width: 90%;
+margin:  auto;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 20px;
+
+}
+
+.pic{
+  position: relative;
+  height: 230px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px rgba(70, 70, 70, 0.2);
+  cursor: pointer;
+}
+
+.pic img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.pic::before{
+    content: "VER BODA";
+    position: absolute;
+    top: 50%;
+    font-weight: 600;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+
+    text-shadow: rgba(70, 70, 70, 0.5);
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition:  .3s;
+    transition-delay: .1;
+    z-index: 5;
+}
+
+.pic:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: .3s;
+}
+
+.pic:hover::after{
+  height: 100%;
+}
+.pic:hover:before{
+  margin-top: 0;
+  opacity: 1;
+
+}
+
+#check1:checked ~ .containerpic .photo-gallery .pic{
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+  transition: 0s;
+}
+
+#check2:checked ~ .containerpic .photo-gallery .Inter{
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+}
+#check2:checked ~ .containerpic .photo-gallery .Sal,
+#check3:checked ~ .containerpic .photo-gallery .Playa{
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------- */
+/* Inicia nuevo codigo css para Galeria */
+/*---------------------------------------------------------------------------------------------------------------- */
+#FaseGal {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 20% 500px;
+  padding: 50px;
+}
+
+#FaseGal .container {
+  padding: 100px 0px;
+}
+
+/*#Fase p {
+  display: none;
+}*/
+
+#FaseGal h2 {
+  margin-top: 0px;
+  font-size: 3.2em;
+}
+#FaseGal h4 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.linea {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.linea img {
+  margin-top: -30px;
+  width: 90%;
+  pointer-events: none;
+
+}
+
+/*-----------------------------------------------Modal----------------------------------------------------------------*/
+.modal{
+  z-index: 30;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: 20% 500px;
+  transition: opacity .3s;
+
+
+}
+
+.modal--show{
+  opacity: 1;
+  pointer-events: unset;
+  transition: opacity .4s;
+}
+
+
+.modal .container {
+  padding: 100px 0px;
+}
+
+.modal h2 {
+  margin-top: 0px;
+  font-size: 3.2em;
+}
+.modal h4 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.modal h1 {
+  text-align: center;
+  color: #1a2537;
+  font-size: 40px;
+}
+
+.closeModal i{
+  margin-left: 200px;
+  margin-top: -100px;
+  position: fixed;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 30px;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.closeModal:hover i{
+color: black;
+transition: all .5s;
+cursor: pointer;
+}
+.modal .link {
+  text-decoration: none;
+  color: rgb(26, 115, 233);
+  font-weight: 600;
+}
+.modal .link:hover {
+  color: rgb(13, 56, 112);
+}
+
+/*----------------------------------------Modal---------------------------------------------*/
+.modal2{
+  z-index: 30;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: 20% 500px;
+  transition: opacity .3s;
+}
+
+
+.modal2--show{
+  opacity: 1;
+  pointer-events: unset;
+  transition: opacity .4s;
+}
+
+
+.modal2 .container {
+  padding: 100px 0px;
+  
+}
+
+.modal2 h2 {
+  margin-top: 0px;
+  font-size: 3.2em;
+}
+.modal2 h4 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.modal2 h1 {
+  text-align: center;
+  color: #1a2537;
+  font-size: 40px;
+}
+
+.closeModal2 i{
+  margin-left: 200px;
+  margin-top: -100px;
+  position: fixed;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 30px;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.closeModal2:hover i{
+color: black;
+transition: all .5s;
+cursor: pointer;
+}
+.modal2 .link {
+  text-decoration: none;
+  color: rgb(26, 115, 233);
+  font-weight: 600;
+}
+.modal2 .link:hover {
+  color: rgb(13, 56, 112);
+}
+
+#formulariop{
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 3px;
+  border-radius: 10px;
+  width: 20% 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.Go {
+  display: inline-block;
+  align-items: center;
+  margin-top: -5px;
+}
+.Go img {
+  height: 30px;
+
+}
+
+/*---------------------------------------Boton ver más vision----------------------------------*/
+
+ #Somos-MM button {
+  
+   font-size: 1.2em;
+   background: rgba(0, 0, 0);
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+   color: white;
+   margin-top: 15px;
+   font-weight: bold;
+   padding: 0.5em 1em;
+   padding-left: 0.9em;
+   display: inline-flex;
+   align-items: center;
+   border: none;
+   border-radius: 25px;
+   overflow: hidden;
+   transition: all 0.2s;
+ }
+ #Somos-MM button span {
+   display: block;
+   margin-left: 0.3em;
+   transition: all 0.3s ease-in-out;
+ }
+ #Somos-MM button i {
+   display: block;
+   transform-origin: center center;
+   transition: transform 0.3s ease-in-out;
+ }
+ #Somos-MM button:hover .wrapper {
+   animation: fly 0.6s ease-in-out infinite alternate;
+ }
+ #Somos-MM button:hover i {
+   transform: translateX(65px) rotate(0deg) scale(1.1);
+ }
+ #Somos-MM button:hover span {
+   transform: translateX(19em);
+ }
+ #Somos-MM button:active {
+   transform: scale(0.95);
+ }
+ @keyframes fly {
+   from {
+     transform: translateY(0.1em);
+   }
+   to {
+     transform: translateY(-0.1em);
+   }
+ }
+ 
+ #Somos-MM button:hover {
+   background-color: rgb(39, 37, 41);
+   cursor: pointer;
+   transition: all 350ms;
+ }
+ /*---------------------------------------------------------------------------------------------------------------- */
+/* Valores*/
+/*---------------------------------------------------------------------------------------------------------------- */
+#Val {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  background-size: 100% 500px;
+}
+#Val .container {
+  padding: 100px 0px;
+  width: min(100% - 25rem, 45rem);
+  margin-inline: auto;
+}
+#Val p {
+  display: none;
+}
+#Val h2 {
+  margin-top: 0px;
+  font-size: 2em;
+}
+#Val h4 {
+  color: rgba(0, 0, 0, 0.5);
+}
+#Val h5 {
+  color: black;
+  font-weight: 500;
+}
+#Val h3 {
+  color: black;
+  text-align: center;
+}
+#Val {
+  background-size: cover;
+}
+#Val h7{
+  color: rgb(73, 73, 73);
+  font-weight: bold;
+}
+.container .sus a {
+  font-size: 50px;
+  color: #928686;
+}
+.container .sus a:nth-child(1):hover {
+  color: rgb(255, 95, 122);
+}
+#jeje {
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  background-size: 100% 500px;
+}
+/*----------------------------------FAQS---------------------------------------------------*/
+
+.containerf a {
+  color: rgb(95, 140, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.containerf a:hover {
+  color: rgb(15, 31, 71);
+}
+  
+
+#Faqs{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: black;
+  display: flex;
+  min-height: 100vh;
+}
+.containerf {
+  margin: 0 auto;
+  padding: 8rem;
+  
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid rgb(255, 95, 122);
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 2em;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+ 
+  background: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion button:hover{
+  cursor: pointer;
+  color: rgb(255, 95, 122);
+}
+
+.accordion button:hover::after {
+  cursor: pointer;
+  color: rgb(255, 95, 122);
+  
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+ 
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: rgb(255, 95, 122);
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: left;
+  margin: 2em 0;
+}
+
+details > summary {
+  cursor: pointer;
+  padding: 5px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.especial {
+  margin-top: -20px;
+}

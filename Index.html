@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pia Pia Pizzeria</title>
+  <link rel="icon" type="image/jpg" href="media/img/LogoChico.jpg" />
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script src="https://kit.fontawesome.com/8ef9d68e0c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+  <header onmousedown="return false;" onselect="return false;">
+    <div class="container">
+      <div class="logo">
+        <a href="#Wed" class="logo">
+          <img src="media/img/LogoChico.jpg" alt="logocom" />
+        </a>
+      </div>
+
+      <nav>
+        <a href="#Somos-MM">Sobre Nosotros</a>
+        <a href="Menu.html">Menu</a>
+        <a class="logged-Ins logged-out" href="#">Iniciar Sesión</a>
+        <a class="logged-In logged-out" href="#">Registrarme</a>
+        <a class="logout" href="#" id="logout">Cerrar Sesión</a>
+      </nav>
+
+  </header>
+
+  <section class="modal">
+
+    <form id="formulario">
+      <h1>Registrarme</h1>
+      <a class="closeModal">
+        <i class="bi bi-x-circle-fill"></i>
+      </a>
+      <div class="contenedor">
+
+        <div class="input-contenedor">
+          <i class="fas fa-user icon"></i>
+          <input type="text" id="Name" placeholder="Nombre" required>
+
+        </div>
+
+        <div class="input-contenedor">
+          <i class="fas fa-envelope icon"></i>
+          <input type="text" id="Correo" placeholder="Correo electrónico" required>
+
+        </div>
+
+        <div class="input-contenedor">
+          <i class="fas fa-key icon"></i>
+          <input type="password" id="Contraseña" placeholder="Contraseña" required>
+
+        </div>
+        <input type="submit" value="Registrarme" class="button">
+        <p>ó</p>
+        <a id="gloging" href="#" class="Go">
+          <img src="media/Google.png" alt="Google" />
+        </a>
+        <p>Al registrarte, aceptas nuestras<a class="link" href="CUso.html">
+            Condiciones de Uso</a><br> y <a class="link" href="PDatos.html">
+            Aviso de Privacidad.</a></p>
+        <p>¿Ya tienes una cuenta?<a class="link acc" href="#"> Iniciar Sesión</a></p>
+      </div>
+    </form>
+  </section>
+
+
+  <section class="modal2">
+
+    <form id="formulariop">
+
+      <h1>Iniciar Sesión</h1>
+      <a class="closeModal2">
+        <i class="bi bi-x-circle-fill"></i>
+      </a>
+      <div class="contenedor">
+
+        <div class="input-contenedor">
+          <i class="fas fa-envelope icon"></i>
+          <input type="text" id="login-email" placeholder="Correo electrónico">
+
+        </div>
+
+        <div class="input-contenedor">
+          <i class="fas fa-key icon"></i>
+          <input type="password" id="login-password" placeholder="Contraseña">
+
+        </div>
+        <p><a class="link" id="rpass" href="#">¿No recuerdas tu contraseña?</a>
+        </p>
+        <input type="submit" value="Iniciar Sesión" class="button">
+        <p>ó</p>
+        <a id="glogin" href="#" class="Go">
+          <img src="media/Google.png" alt="Google" />
+        </a>
+
+
+        <p>¿No tienes una cuenta? <a class="link acc2" href="#">Registrarme </a></p>
+      </div>
+
+    </form>
+
+
+  </section>
+
+
+  <script type="module" src="reset.js"></script>
+  <script type="module" src="main.js"></script>
+  <script type="module" src="entrar.js"></script>
+  <script type="module" src="google.js"></script>
+  <script type="module" src="regis.js"></script>
+  <script type="module" src="Modal.js"></script>
+  <script type="module" src="modal2.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+  <section id="Wed" onmousedown="return false;" onselect="return false;">
+    
+    <form action="MENU.HTML" class="CBoda">
+      <button>Ver Productos</button>
+    </form>
+    <form id="CB">
+      <button>Ver Productos</button>
+    </form>
+  </section>
+
+  <section id="Somos-MM" onmousedown="return false;" onselect="return false;">
+    <div class="container">
+      <div class="img-container"></div>
+      <div class="texto">
+        <h2>Somos <span class="color-acento"> Pia Pia </span></h2>
+        <b>Somos una empresa de comida rapida que te ofrece las mejores pizzas y no solo eso si no que tambien te las entregamos super rapido no por algo nuestro lema es, Bien Rapiditas, Bien Sabrositas! </b>
+
+        <form action="Valores.html">
+          <button>
+            <div class="wrapper">
+              <i class="bi bi-file-text"></i>
+            </div>
+            <span>Conocer Más</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div id="map">
+    <span class="section-subtitle about_initial">Ubicación</span>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477128.97379071376!2d-105.67204000912622!3d20.88937084940742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214ff74b1964af%3A0x91c159242f2eb9c7!2sPia%20Pia%20Pizzeria%2C%20Pitillal!5e0!3m2!1ses-419!2smx!4v1676602614632!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              
+</div>
+    <section class="app section tk-container">
+        <div class="app_container tk-grid">
+            <div class="app_data">
+                <span class="section-subtitle app_initial">App</span>
+                <h2 class="section-title app_initial">Descarga la App</h2>
+                <p class="app_description">Todo el sabor desde tu Smarthphone</p>
+                <div class="app_stores">
+                    <a href="#"><img src="img/app1.png" alt="" class="app_store"></a>
+                    <a href="#"><img src="img/app2.png" alt="" class="app_store"></a>
+                </div>
+            </div>
+
+            <img src="img/movil-app.png" alt="" class="app_img">
+
+        </div>
+    </section>
+</section>
+
+<section class="services section tk-container" id="services">
+    <span class="section-subtitle">Ofrecemos</span>
+    <h2 class="section-title">Nuestros increibles Productos</h2>
+    <br>
+    <br>
+
+    <div class="services_container tk-grid">
+        <div class="services_content">
+            <img src="media/img/Vector01.svg" class="services_img" alt="">
+            <h3 class="services_title">Pizzas</h3>
+            <p class="services_description">BIEN SABROSITAS BIEN RAPIDITAS!</p>
+        </div>
+        <div class="services_content">
+            <img src="media/img/alitas-de-pollo.png" class="services_img" alt="">
+            <h3 class="services_title">Complementos</h3>
+            <p class="services_description">PARA EL HUEQUITO!</p>
+        </div>
+        <div class="services_content">
+            <img src="media/img/cola.png" class="services_img" alt="">
+            <h3 class="services_title">Bebidas</h3>
+            <p class="services_description">EL REFRESCANTE SABOR DE COCA COLA YA LLEGO A PIA PIA</p>
+            <br>
+            <br>
+            
+        </div>
+    </div>
+   
+    <h2>En Pía Pía ofrecemos la mejor calidad</h2>
+            <div class="content-all">
+                <div class="content-carrusel">
+                    <figure><img src="media/img/img1.jpeg"></figure>
+                    <figure><img src="media/img/img2.jpeg"></figure>
+                    <figure><img src="media/img/img3.jpeg"></figure>
+                    <figure><img src="media/img/img4.jpeg"></figure>
+                    <figure><img src="media/img/img5.jpeg"></figure>
+                    <figure><img src="media/img/img6.jpeg"></figure>
+                    <figure><img src="media/img/img7.jpeg"></figure>
+                    <figure><img src="media/img/img8.jpeg"></figure>
+                    <figure><img src="media/img/img9.jpeg"></figure>
+                    <figure><img src="media/img/img10.jpeg"></figure>
+            </div>
+        </section>
+
+        </div>
+</section>
+
+<section class="app section tk-container">
+
+</section>
+
+<section class="contact section tk-container" id="contact">
+    <div class="contact_container tk-grid">
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer section tk-container">
+<div class="footer_container tk-grid">
+    <div class="footer_content">
+        <a href="#" class="footer_logo">Nuestras Redes Sociales</a>
+        <span class="footer_description">Pia</span>
+        <div>
+            <a href="https://www.facebook.com/MiaMiaPizzeriaPV" class="footer_social"><i
+                    class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="footer_social"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+        </div>
+    </div>
+
+    <p class="footer_copy">&#169; 2021 lorem lorem</p>
+
+</footer>
+<script src="js/Login.js"></script>
+<script type="module">
+</script>
+<link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" crossorigin="anonymous">
+<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <p>&copy;Magic Memories 2022. Todos los derechos reservados.</p>
+  </footer>
+
+
+</html>
