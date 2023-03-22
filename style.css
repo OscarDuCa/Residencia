@@ -61,7 +61,7 @@ html{
 }
 
 .tk-container {
-    max-width: 960px;
+    max-width: 100%;
     width: calc(100% - 2rem);
     margin-left: 1rem;
     margin-right: 1rem;
