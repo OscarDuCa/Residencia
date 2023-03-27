@@ -30,10 +30,7 @@ ul {
 a {
     text-decoration: none;
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -359,6 +356,7 @@ cursor: pointer;
     right: 0;
     display: flex;
     padding: 10px 97px;
+    height: 40px;
 }
 
 .app_data{
@@ -366,6 +364,7 @@ cursor: pointer;
 }
 .app_description{
     margin-bottom: 2.5rem;
+    text-align: left;
 }
 .app_stores{
     margin-bottom: 2rem;
