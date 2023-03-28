@@ -112,7 +112,7 @@ cursor: pointer;
     position:absolute;
     background: #393939;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     top:60px;
     left:0;
     transition: all 500ms ease;
@@ -502,8 +502,8 @@ text-align: center;
 
 @media screen and (min-width:960px) {
     .tk-container {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: inherit;
+        margin-right: 0px;
     }
     .about_container,
     .app_container {

@@ -869,7 +869,7 @@ border-color: rgb(255, 56, 56);
 
   header .container {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   header nav {
