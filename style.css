@@ -58,9 +58,10 @@ html{
 }
 
 .tk-container {
+    
     max-width: 100%;
-    width: calc(100% - 2rem);
-    margin-left: 1rem;
+    width: calc(100%);
+    margin-left: rem;
     margin-right: 1rem;
     
     
@@ -916,22 +917,3 @@ translateZ(300px);}
     }
 }
 
-  #cart {
-    border: 1px solid black;
-    padding: 10px;
-    width: 300px;
-  }
-  
-  #cart h2 {
-    margin-top: 0;
-  }
-  
-  #cart-items {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #cart-items li {
-    margin-bottom: 5px;
-  }
